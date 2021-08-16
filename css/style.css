@@ -1,0 +1,342 @@
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.header{
+	
+	border-bottom: 2px solid #CCC;
+}
+
+.head{
+	font-size: 16px;
+}
+.navigation{
+	font-size: 14px;
+}
+.navbar ul ul.sub-menu{
+	text-decoration:none;
+	position:absolute;
+	width:200px;
+	display:none;
+}
+.navbar ul li:hover ul.sub-menu{
+	display:block;
+	left: -150px;	
+	
+	background-color: #fff;
+}
+.navbar ul ul.sub-menu li a:hover{
+	text-decoration:none;
+}
+
+.navbar ul ul.sub-menu li {
+	text-align:left;
+	text-decoration:none;
+}
+
+.navbar-expand-lg {
+    padding: 0px 235px;
+}
+.navbar-expand-lg ul{
+	margin-left: 150px;
+}
+.navbar-expand-lg ul li a{
+	color: black;
+}
+.navbar-expand-lg ul li.active a{
+	color: red;
+}
+.navbar-expand-lg ul li a:hover,a:focus{
+	color: red;
+}
+
+.carousel-inner img {
+	height: 400px;
+	width: 100%  ;
+}
+.carousel-caption h1{font-size:50px;}
+
+
+.carousel-caption{
+	position:absolute;
+	top:185px;
+}
+
+
+.service-section .services{
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0px 9px 18px 0px #e87a8d;
+	padding: 5px 10px;
+}
+
+.calculate{
+	padding: 50px 0;
+	color:#fff;
+	background-color: #f73152;
+}
+.fa-phone{
+	border-radius: 0px;
+	font-size: 36px;
+	padding: 20px 15px;
+}
+.call{
+	border-radius: 0px;
+	width: 60px;
+	margin-bottom: -10px;
+	height: 55px;
+}
+.textcalculate1:focus{
+	background-color: transparent;
+}
+.textcalculate:focus{
+	background-color: transparent;
+}
+
+.calc ul{
+	margin-top: 70px;
+}
+.calc ul li{display: inline-block;}
+.textcalculate{
+width:300px;
+background-color:transparent;
+}
+
+.textcalculate1 {
+    width: 300px;
+    background-color: transparent;
+}
+.calculatebtn{
+	width: 270px;
+	color: #000;
+	border-radius: 25px;
+	background-color: #FFF;	
+}
+.price{
+	color: red;
+}
+.courses img:hover{
+	 transform: scale(1.1);
+	 transition: 0.5s;
+}
+
+.courses img{
+	width:350px;
+}
+.courses{
+	margin-bottom: 20px;
+	overflow: hidden;
+	transition: transform 1s;
+	width:300px;
+}
+
+.course{
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+.revolution .textred{
+	color:#F25656;
+}
+
+.revolution img{
+	height:250px;
+	width: 100%;
+}
+.revolution{
+	background-color: rgba(51,51,51,0.8)
+}
+.trainer{
+	padding-bottom: 40px;
+	background-image: linear-gradient(#E1E1E1,#E9E9E9);
+}
+
+.logos img{
+	padding: 5px;
+	width:200px; 
+
+}
+.navbarclass ul li.active a{
+	color:white;
+}
+.navbarclass ul li a:hover,a:focus{
+	color: white;
+}
+.navbarclass{
+	color: white;
+	background-color: #F25656;
+}
+.transaction{
+	background-image: url('../images/gym/callto-bg.jpg');
+	    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    text-align: center;
+
+}
+.textcap h2{margin-bottom: 40px;}
+.textcap .btn-danger{
+	border-radius: 25px;
+}
+.textcap{
+	color:white;
+}
+
+.footer .email{
+width:350px;
+border-radius:100px;
+}
+.fa-arrow-right{
+color: #fff;
+padding: 11px 30px;
+background-color: #F25656;
+border-radius: 100px;
+position: absolute;
+left: 291px;
+top:105px;
+}
+
+.num{
+	color: #F25656;
+	font-size: 20px;
+}
+.footer-bottom ul li{
+	display: inline;
+	padding: 0px 05px;
+	margin-left: 20px;
+	font-size:40px;
+	background-color:#000 ;
+}
+.plan{
+	padding: 20px 40px;
+	background-color:#e7e7e7;
+}
+.planprice h1{
+font-size: 50px;
+}
+.planprice{
+	top:15px;
+	left:255px;
+	position: absolute;
+}
+.planbtn{
+	margin:left:30px;
+}
+.planheadbotom{
+	padding-bottom: 15px;
+	border-bottom: 2px solid gray;
+
+}
+.planhead{
+	border-bottom:2px solid gray;
+}
+
+.fa-behance{
+	background-color: #000;
+	color: gray;
+}
+.fa-facebook-f{
+	text-align: center;
+	width: 35px;
+	background-color:#000;
+	color: gray;	
+}
+.fa-twitter{
+ background-color: #000;
+ color: gray;
+
+}
+.overlay {
+  position: absolute; 
+  bottom: 0px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.card:hover .overlay {
+  opacity: 1;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.moredetail:hover .image {
+  opacity: 0.3;
+}
+
+.moredetail:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:  #F25656;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #F25656;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.moredetail:hover .overlay2 {
+  width: 100%;
+}
+
+.text2{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.services:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.social{
+	margin-left: 300px;
+}
